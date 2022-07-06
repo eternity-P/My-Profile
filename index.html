@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/ad169d7313.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    body {
+      min-height: 100vh;
+      background: linear-gradient(to right, #4daf54, #3d8880);
+      /* background: center/cover url('2.jpg'); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: roboto, sans-serif;
+    }
+    .card {
+        width: 300px;
+        height: 450px;
+        /* background-color: #131414; */
+        background: linear-gradient(to right, #28313B, #404953);
+      border-radius: 12px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .card .avt {
+      width: 120px;
+      height: 120px;
+      border: 3px solid #fa6a5f;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 40px auto;
+      transition: 0.5s;
+    }
+    .card .avt img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      object-position: center;
+    }
+    .card h2 {
+      font-size: 24px;
+      color: white;
+      text-align: center;
+    }
+    .card p {
+      font-size: 16px;
+      color: #fa6a5f;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .card .font {
+      margin-top: 30px;
+    }
+    .card .font a {
+      margin-right: 40px;
+      font-size: 20px;
+    }
+    .card .font a:last-child {
+      margin-right: 0px;
+    }
+    .card .font a i {
+      color: white;
+      display: inline-block;
+    }
+    .card .font a:hover i {
+      color: #fa6a5f;
+      transition: 0.3s;
+    }
+    button {
+      margin-top: 45px;
+      background-color: transparent;
+      width: 140px;
+      border: none;
+    }
+    button a {
+      display: block;
+      color: white;
+      padding: 15px 20px;
+      border: 1px solid #fa6a5f;
+      border-radius: 8px;
+      font-size: 13px;
+      transition: 0.3s;
+    }
+    button:hover a {
+      background-color: #f2726a;
+    }
+    .card .avt:hover {
+      width: 100%;
+      height: 100%;
+      border-radius: unset;
+      margin: 0px auto;
+      border: unset;
+    }
+  </style>
+  <body>
+    <div class="card">
+      <div class="avt">
+        <img src="1.jpg" />
+      </div>
+      <h2>Vũ Huy Tùng</h2>
+      <p>CVTV Bất Động Sản</p>
+      <div class="font">
+        <a href="https://www.facebook.com/profile.php?id=100048695962700">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/tungvu1807/">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href=""
+        >
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+      <button type="submit">
+        <a href="https://www.facebook.com/profile.php?id=100048695962700">Contact me</a>
+      </button>
+    </div>
+  </body>
+</html>
